@@ -77,7 +77,7 @@ contract ApexVault is
     }
 
     /**
-     * @dev Withdraw your share of assets (supports ETH or ERC20)
+     * @dev Withdraw   your share of assets (supports ETH or ERC20)
      */
     function withdraw(address token, uint256 amount) external nonReentrant whenNotPaused {
         require(amount > 0, "Amount must be > 0");
